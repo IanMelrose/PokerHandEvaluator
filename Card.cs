@@ -28,6 +28,13 @@ namespace Poker_Hand_Evaluator
             this.rankValue = rankValue;
         }
 
+        public String cardName()
+        {
+            String theName;
+            theName = RankName + " of " + SuitName;
+            return theName;
+        }
+
         public String SuitName
         {
             get { return suitName; }
